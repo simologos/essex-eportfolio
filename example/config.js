@@ -107,6 +107,11 @@ module.exports = {
       position: 'right',
       data: [
         {
+          date: 'Dec 2022',
+          title: 'Certified SAFe 5 Product Owner/Product Manager',
+          location: 'Online',
+        },
+        {
           date: 'Sept 2022',
           title: 'AWS Certified Solutions Architect - Associate',
           location: 'Online',

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---gatsby-theme-academic-src-templates-tags-index-jsx",
+    "path": "/tags/Deciphering Big Data",
+    "result": {"data":{"allTag":{"edges":[{"node":{"color":"magenta","name":"MSc Data Science","description":null,"path":"/tags/MSc Data Science"}},{"node":{"color":"orange","name":"Deciphering Big Data","description":null,"path":"/tags/Deciphering Big Data"}},{"node":{"color":"volcano","name":"Data Professional","description":null,"path":"/tags/Data Professional"}},{"node":{"color":"red","name":"Induction Module","description":null,"path":"/tags/Induction Module"}},{"node":{"color":"gold","name":"gatsby","description":null,"path":"/tags/gatsby"}}]},"allMdx":{"edges":[]},"allFile":{"edges":[]}},"pageContext":{"fileAbsolutePath":"","tag":"Deciphering Big Data"}},
+    "staticQueryHashes": ["1552981879","3013679938","4097791827"]}

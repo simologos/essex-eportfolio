@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn workspace example build",
-    "develop": "yarn workspace example develop",
+    "start": "yarn workspace example develop",
     "clean": "yarn workspace example clean"
   },
   "workspaces": [

@@ -8,7 +8,7 @@ authors:
   - name: "Simon Egli"
     url: "https://www.simonegli.com/"
 path: "research/bigdata"
-excerpt: "E-portfolios have gained prominence in higher education to document and showcase students' learning experiences and achievements. This paper presents an e-portfolio created for the \"Deciphering Big Data\" module at the University of Essex. The e-portfolio includes the required components specified by the module guidelines and allows students to delve into independently chosen topics within big data. Furthermore, the e-portfolio documents the student's learning successes throughout the module. It highlights progression, growth, and achievements in knowledge acquisition, skill development, and applying theoretical concepts to practical scenarios. Additionally, it emphasizes active participation and contributions to group projects, demonstrating the ability to collaborate effectively and produce high-quality outputs."
+excerpt: "E-portfolios have gained prominence in higher education to document and showcase students' learning experiences and achievements. This paper presents an e-portfolio created for the \"Deciphering Big Data\" module at the University of Essex. The e-portfolio includes the required components specified by the module guidelines and allows students to delve into independently chosen topics within big data. Furthermore, the e-portfolio documents the student's learning successes throughout the module. It highlights progression, growth, and achievements in knowledge acquisition, skill development, and applying theoretical concepts to practical scenarios. Additionally, it emphasises active participation and contributions to group projects, demonstrating the ability to collaborate effectively and produce high-quality outputs."
 selected: true
 priority: 1
 ---
@@ -44,7 +44,7 @@ Marr (2017) offers valuable insights into crafting a compelling data strategy, p
 
 ## Data Security
 
-Data is vital in business operations, making its protection an essential task. This responsibility lies within the realm of Information Security (or Data Security), a domain tasked with ensuring data confidentiality (restricted to authorized personnel), integrity (preventing unauthorized modifications or destruction), and availability (accessible to authorized individuals when required). Information Security encompasses all forms of data and is often reinforced through certifications like ISO/IEC 27001. According to DAMA International (2017), Data Security is the systematic formulation, establishment, and implementation of comprehensive security policies and protocols to ensure adequate authentication, authorization, access control, and auditing for data and information assets. In this sense, Data Security serves to safeguard corporate interests. 
+Data is vital in business operations, making its protection an essential task. This responsibility lies within the realm of Information Security (or Data Security), a domain tasked with ensuring data confidentiality (restricted to authorised personnel), integrity (preventing unauthorised modifications or destruction), and availability (accessible to authorised individuals when required). Information Security encompasses all forms of data and is often reinforced through certifications like ISO/IEC 27001. According to DAMA International (2017), Data Security is the systematic formulation, establishment, and implementation of comprehensive security policies and protocols to ensure adequate authentication, authorisation, access control, and auditing for data and information assets. In this sense, Data Security serves to safeguard corporate interests. 
 
 In contrast, [Data Protection](#data-protection) (or Data Privacy) is concerned with protecting the interests of natural persons. Broadly defined as the "protection of personal data," [Data Protection](#data-protection) is governed by legislative policies. Data protection entails associated costs, which may create conflicts with the cost-efficiency goals of companies and administrations. However, recognizing the significance of safeguarding individuals from privacy breaches, such as the disclosure of private email addresses, intimate personal details like medical histories, private conversations shared through publicly accessible chat logs, and the dissemination of sensitive financial information, underscores the utmost importance of data protection regulations and therefore the integration of compliance and data security measures.
 
@@ -70,12 +70,12 @@ Purpose Limitation                 | Personal data must be collected for specifi
 Data Minimisation                  | Personal data must be adequate, relevant, and limited to what is necessary concerning the purposes for which they are processed.
 Accuracy                           | Personal data must be accurate and, where necessary, kept up-to-date. Every reasonable step must be taken to ensure that inaccurate personal data (regarding the purpose for which they are processed) are erased or rectified without delay.
 Storage Limitation                 | Data must be kept in a form that permits identification of data subjects [individuals] for no longer than is necessary for the purposes for which the personal data are processed.
-Integrity and Confidentiality      | Data must be processed in a manner that ensures appropriate security of the personal data, including protection against unauthorized or unlawful processing and accidental loss, destruction or damage, using appropriate technical or organizational measures.
+Integrity and Confidentiality      | Data must be processed in a manner that ensures appropriate security of the personal data, including protection against unauthorised or unlawful processing and accidental loss, destruction or damage, using appropriate technical or organisational measures.
 Accountability                     | Data Controllers shall be responsible for and be able to demonstrate compliance with [these principles].
 
 Switzerland has its own Data Protection Law, the Federal Act on Data Protection (FDAP). The forthcoming implementation (new FADP or nFADP) on September 1, 2023, is a significant step for Switzerland to achieve recognition as a third country with adequate data protection standards aligning with the GDPR requirements. According to Meier (2023), Switzerland's nFADP closely mirrors the scope of the GDPR, applying to the processing of individuals' personal data but excluding legal entities' data. Both laws share the definition of sensitive data, requiring explicit consent for processing genetic and biometric data. GDPR and nFADP grant individuals certain rights over their personal data, but GDPR offers additional rights such as data portability and the right to object to automated decision-making.
 
-One of the key differences between GDPR and nFADP lies in the legal bases for data processing. GDPR provides a broader range of legal grounds, while nFADP mainly relies on consent, contract, or the predominant legitimate interest of the data controller. Moreover, GDPR mandates the appointment of a Data Protection Officer (DPO) for specific organizations, while nFADP does not have a mandatory DPO requirement. Enforcement mechanisms also differ; GDPR empowers EU supervisory authorities to enforce the regulation with substantial fines, whereas nFADP is enforced by the Federal Data Protection and Information Commissioner (FDPIC) with typically lower fines. Notably, nFADP imposes fines against individual employees, while GDPR primarily fines corporations. Additionally, GDPR requires prompt reporting of data breaches within 72 hours, while nFADP does not specify a time constraint for reporting breaches. Understanding these distinctions is essential for navigating data protection in Swiss and EU contexts.
+One of the key differences between GDPR and nFADP lies in the legal bases for data processing. GDPR provides a broader range of legal grounds, while nFADP mainly relies on consent, contract, or the predominant legitimate interest of the data controller. Moreover, GDPR mandates the appointment of a Data Protection Officer (DPO) for specific organisations, while nFADP does not have a mandatory DPO requirement. Enforcement mechanisms also differ; GDPR empowers EU supervisory authorities to enforce the regulation with substantial fines, whereas nFADP is enforced by the Federal Data Protection and Information Commissioner (FDPIC) with typically lower fines. Notably, nFADP imposes fines against individual employees, while GDPR primarily fines corporations. Additionally, GDPR requires prompt reporting of data breaches within 72 hours, while nFADP does not specify a time constraint for reporting breaches. Understanding these distinctions is essential for navigating data protection in Swiss and EU contexts.
 
 ### API Security Requirements
 
@@ -88,14 +88,14 @@ Figure 1: Possible Cyber Security measures
 1. Employ reputable solutions for Secrets Management, Encryption Services, and Key Management, such as HashiCorp Vault, to ensure secure management of sensitive information.
 2. Apply data-at-rest encryption to safeguard inactive data stored on hard disks, preserving its confidentiality and integrity.
 3. Digitally sign application executable files or code using cryptographic signatures as evidence of the application's authenticity and integrity.
-4. Utilize Transport Layer Security (TLS), a cryptographic protocol, to encrypt communications and protect sensitive data during transit.
+4. Utilise Transport Layer Security (TLS), a cryptographic protocol, to encrypt communications and protect sensitive data during transit.
 5. Implement firewalls to actively filter and block malicious network traffic, enhancing network security.
-6. Delegate the authentication (and potentially authorization) processes to trusted systems by adopting established standards and frameworks like SAML and OAuth.
+6. Delegate the authentication (and potentially authorisation) processes to trusted systems by adopting established standards and frameworks like SAML and OAuth.
 7. Rely on trusted Identity Providers (IdPs) to create, store, and manage digital identities, ensuring the integrity and confidentiality of user (and machine) identities.
 8. Select software vendors who demonstrate their commitment to security by providing evidence, such as certifications, indicating adherence to appropriate security measures and quality controls.
 9. Secure machine-to-machine communication using TLS, safeguarding the confidentiality and integrity of data transmitted between systems.
 10. Reiterate the importance of data-at-rest encryption, reinforcing the protection of inactive database data.
-11. Conduct regular audits of system access, effectively mitigating unauthorized access to log files and strengthening overall system security.
+11. Conduct regular audits of system access, effectively mitigating unauthorised access to log files and strengthening overall system security.
 
 ## Data Quality
 
@@ -109,8 +109,8 @@ The four categories relate to the following subjects of investigation:
 
 * System-Supported: About the system's accessibility
 * Inherent: About the content itself
-* Representation-Related: About the visualization aspect
-* Purpose Dependent: About the utilization of the data
+* Representation-Related: About the visualisation aspect
+* Purpose Dependent: About the utilisation of the data
 
 These categories demonstrate that data quality encompasses more than just the commonly discussed practices like [Data Cleaning](#data-cleaning), which primarily focuses on content and partially on usability. In greater detail, the following dimensions are present:
 
@@ -128,7 +128,7 @@ These categories demonstrate that data quality encompasses more than just the co
 12. **Reputation**: Information is highly regarded when the information source, transport medium, and processing system are known for high reliability and competence.
 13. **Timeliness**: Information is timely when it reflects the actual property of the described object in a timely manner.
 14. **Understandability**: Information is understandable when it can be immediately comprehended and used for the users' purposes.
-15. **Value-Added**: Information is value-added when its utilization leads to a quantifiable increase in a monetary objective function.
+15. **Value-Added**: Information is value-added when its utilisation leads to a quantifiable increase in a monetary objective function.
 
 Quality, much like security, involves a trade-off between cost and benefit. Appropriate quality assurance measures must be implemented at every stage of the data flow process to attain the desired level of quality.
 
@@ -138,19 +138,19 @@ As an interdisciplinary field, data science encompasses various facets of data, 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5lnchFABBeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-With the evolving landscape, the application of data has transcended scientific domains and made substantial inroads into the business realm. Data is now recognized as a pivotal business asset, playing a central role in the success of companies across industries. Marr (2017) emphasizes that data enables organizations to improve decision-making processes, enhance operational efficiency, and leverage opportunities for data monetization.
+With the evolving landscape, the application of data has transcended scientific domains and made substantial inroads into the business realm. Data is now recognised as a pivotal business asset, playing a central role in the success of companies across industries. Marr (2017) emphasises that data enables organisations to improve decision-making processes, enhance operational efficiency, and leverage opportunities for data monetisation.
 
-The collection and analysis of vast and diverse datasets, commonly called Big Data, serve as a foundation for deriving meaningful insights and answers to questions that may not be known at the outset of analysis (DAMA International, 2017). Big Data encompasses various data types, including structured and unstructured formats like documents, files, audio, video, and streaming data. Data Science and analytics, and visualization techniques provide the tools and methodologies for extracting valuable information from Big Data.
+The collection and analysis of vast and diverse datasets, commonly called Big Data, serve as a foundation for deriving meaningful insights and answers to questions that may not be known at the outset of analysis (DAMA International, 2017). Big Data encompasses various data types, including structured and unstructured formats like documents, files, audio, video, and streaming data. Data Science and analytics, and visualisation techniques provide the tools and methodologies for extracting valuable information from Big Data.
 
 To comprehend the distinctive characteristics of Big Data, DAMA International (2017) used the concept of the 4Vs and expanded:
 
-* Volume: Signifies the scale of data, often characterized by many entities or elements within billions of records.
+* Volume: Signifies the scale of data, often characterised by many entities or elements within billions of records.
 * Velocity: Refers to the speed at which data is captured, generated, and shared. Big Data is often produced in real-time or near real-time, requiring rapid processing and analysis.
 * Variety/Variability: Encompasses the diverse forms and formats in which data is captured and delivered. Big Data necessitates storing and integrating multiple data formats, often exhibiting inconsistencies in structure across different datasets.
 * Viscosity: Reflects the challenges of utilizing and integrating data due to complexity, heterogeneity, or compatibility issues.
 * Volatility: Represents the frequency and rate of data changes, influencing the lifespan and relevance of the data.
 * Veracity: Addresses the trustworthiness and reliability of the data, considering factors such as accuracy, integrity, and source credibility.
-Beyond the aspects encapsulated by the 4Vs, the field of Big Data also entails the development of predictive, machine learning, and prescriptive models, as well as advanced analytics techniques. These models and methodologies enable organizations to extract meaningful insights and make informed decisions based on the analysis of Big Data.
+Beyond the aspects encapsulated by the 4Vs, the field of Big Data also entails the development of predictive, machine learning, and prescriptive models, as well as advanced analytics techniques. These models and methodologies enable organisations to extract meaningful insights and make informed decisions based on the analysis of Big Data.
 
 ![Conceptual DW/BI and Big Data Architecture](BIBD.jpg)
 
@@ -160,7 +160,7 @@ Figure 3 illustrates the distinctions between Business Intelligence/Data Warehou
 
 BI/DW primarily revolves around standard and ad hoc reporting, dashboards, alerts, queries, and details-on-demand. It deals with structured data, traditional sources, and manageable datasets. Typical questions addressed in BI/DW include inquiries about historical events, sales figures, problem identification, and situational analysis.
 
-On the other hand, Data Science employs techniques to process big data, emphasizing optimization, predictive modelling, forecasting, and statistical analysis. Data Science tackles more complex questions, such as "What if...?" scenarios, determining optimal business strategies, predicting future outcomes, understanding trends, and uncovering the reasons behind observed patterns.
+On the other hand, Data Science employs techniques to process big data, emphasizing optimisation, predictive modelling, forecasting, and statistical analysis. Data Science tackles more complex questions, such as "What if...?" scenarios, determining optimal business strategies, predicting future outcomes, understanding trends, and uncovering the reasons behind observed patterns.
 
 ## Internet of Things
 
@@ -194,7 +194,7 @@ According to Karkouch et al. (2016), the [Data Quality](#data-quality) categorie
 * Data leakage: Storing more data than necessary poses a privacy risk to users.
 * Multi-source data time alignment: Due to the numerous data sources, issues arise in aligning the timing of these sources to gain meaningful insights.
 
-These aspects contribute to the tendency of unreliable IoT system data (Nižetić et al., 2020). To mitigate the costly consequences of low [Data Quality](#data-quality), techniques for data preprocessing and quality improvement are required. IoT exemplifies the versatility of [Data Pipelines](#data-pipeline), highlighting the importance of Data Science methods in finding customized project solutions. These methodologies are crucial in effectively handling IoT-generated data and extracting valuable insights, ultimately enhancing IoT applications' efficiency and innovation.
+These aspects contribute to the tendency of unreliable IoT system data (Nižetić et al., 2020). To mitigate the costly consequences of low [Data Quality](#data-quality), techniques for data preprocessing and quality improvement are required. IoT exemplifies the versatility of [Data Pipelines](#data-pipeline), highlighting the importance of Data Science methods in finding customised project solutions. These methodologies are crucial in effectively handling IoT-generated data and extracting valuable insights, ultimately enhancing IoT applications' efficiency and innovation.
 
 ## Architectures and Blueprints
 
@@ -231,7 +231,7 @@ Data Wrangling, or Data Munging, Janitorial Work or Data Preparation is the proc
 
 Data Wrangling is typically a manual task performed by data scientists, analysts, or data engineers, and it is often driven by the specific question or analysis they want to perform. Data Wrangling requires human intervention and domain expertise to understand the data, identify issues, and decide how to clean, transform, and prepare the data appropriately for the intended analysis or task.
 
-When working with big data and having to wrangle large amounts of data, traditional Data Wrangling methods that work well with smaller datasets may not be sufficient due to the sheer volume and complexity of the data. Handling such massive datasets requires specialized techniques and tools to achieve scalability and efficiency. This includes tools like Apache Spark and Apache Hadoop.
+When working with big data and having to wrangle large amounts of data, traditional Data Wrangling methods that work well with smaller datasets may not be sufficient due to the sheer volume and complexity of the data. Handling such massive datasets requires specialised techniques and tools to achieve scalability and efficiency. This includes tools like Apache Spark and Apache Hadoop.
 
 ![Data Wrangling Process](data.wrangling.drawio.png)
 
@@ -239,14 +239,14 @@ Figure 8: Data Wrangling Process (Stobierski, 2021)
 
 Figure 8 shows that Data Wrangling is an iterative and exploratory process, as Stobierski (2021) shows. The process includes the following stages:
 
-1. **Data Discovery**: The initial step involves data familiarization, trend identification, and issue recognition, influencing all subsequent data-related activities. This process may involve traditional techniques like Data Profiling, aimed at analyzing data sources to assess their utility and determine the best approach to handling them, as well as Data Mining, which enables the identification of patterns and relationships within the data.
+1. **Data Discovery**: The initial step involves data familiarisation, trend identification, and issue recognition, influencing all subsequent data-related activities. This process may involve traditional techniques like Data Profiling, aimed at analyzing data sources to assess their utility and determine the best approach to handling them, as well as Data Mining, which enables the identification of patterns and relationships within the data.
 2. **Data Structuring**: Raw data is not directly usable due to its incompleteness or misformatting. Data structuring becomes essential as it involves transforming raw data into a more suitable format that aligns with the analytical model used for interpretation, thus enabling its effective leverage in analysis and decision-making processes. This process may include [Data Modelling](# data-modelling).
 3. **Data Cleaning**: Data cleaning plays a pivotal role in the Data Wrangling process as it is essential for eliminating inaccurate and inconsistent data, ensuring the reliability and quality of the dataset. For further insights, refer to the details provided in the dedicated chapter on [Data Cleaning](#data-cleaning).
 4. **Data Enriching**: After transforming existing data into a usable format, assessing its sufficiency for the project is crucial, and if needed, enriching it with values from other datasets is essential, requiring a thorough understanding of available data sources and repeating the process for any new data.
 5. **Data Verifying**: Data validation is critical to ensure data consistency and high-quality standards, wherein potential issues are identified and resolved, or data is deemed analysis-ready. Data Profiling techniques might be used again.
 6. **Data Publishing**: The last step within the iteration involves publishing the data, making it accessible for analysis. The choice of information-sharing format, whether a written report or electronic file, depends on the nature of the data and the specific goals.
 
-Please note that terms such as Data Wrangling, Data Cleaning, Data Cleansing, Data Pre-Processing, or Data Tidying are often used interchangeably. However, in the context of traditional Data Warehousing and Business Intelligence, Data Cleaning (including its synonyms) is often associated explicitly with certain Data Wrangling activities within Extract, Transform, and Load (ETL) integration processes. In contrast, in Data Wrangling, Data Cleaning is a critical step. It is worth noting that most Data Cleansing tasks in ETL are commonly executed using SQL, primarily because the data's reduced variety enables more straightforward processing and standardization (Apel, 2015; Dwyer, 2016; DAMA International, 2017; Hildebrand et al., 2018; Köppen et al., 2014; Miller, 2019; Schintler & McNeely, 2022).
+Please note that terms such as Data Wrangling, Data Cleaning, Data Cleansing, Data Pre-Processing, or Data Tidying are often used interchangeably. However, in the context of traditional Data Warehousing and Business Intelligence, Data Cleaning (including its synonyms) is often associated explicitly with certain Data Wrangling activities within Extract, Transform, and Load (ETL) integration processes. In contrast, in Data Wrangling, Data Cleaning is a critical step. It is worth noting that most Data Cleansing tasks in ETL are commonly executed using SQL, primarily because the data's reduced variety enables more straightforward processing and standardisation (Apel, 2015; Dwyer, 2016; DAMA International, 2017; Hildebrand et al., 2018; Köppen et al., 2014; Miller, 2019; Schintler & McNeely, 2022).
 
 Furthermore, existing literature on Data Wrangling, including references to DAMA International (2017), Schintler & McNeely (2022), and Stobierski (2021), does not encompass Data Capturing. However, when examining Bornstein et al.'s (2020) Unified Data Infrastructure, it becomes evident that IT Engineers (such as Software Engineers, Platform Engineers, or IT Operations personnel) and Data Engineers play a significant role in integrating data sources within medium and large enterprises (see [Data Pipeline](#data-pipeline)).
 
@@ -330,7 +330,7 @@ Figure 9: CAP Theorem including examples
 
 When building/configuring the storage system, the following aspects should be considered:
 
-1. Business Continuity: Ensuring that the storage setup supports high availability and disaster recovery measures to minimize disruptions and data loss in case of unexpected incidents.
+1. Business Continuity: Ensuring that the storage setup supports high availability and disaster recovery measures to minimise disruptions and data loss in case of unexpected incidents.
 2. Resilience against Hardware Failures: Addressing the potential risks of losing the physical database server or disk storage devices to maintain data integrity and accessibility.
 3. Data Recovery: Preparing for the possibility of database loss, including the Master Database, temporary storage database, transaction log segment, and having appropriate recovery mechanisms in place.
 4. Data Integrity: Guarding against the corruption of database indexes or data pages to maintain data accuracy and consistency.
@@ -540,7 +540,7 @@ In order to achieve the first normal form (1NF), the data must be organised in t
 
 In the provided table, the presence of repeating groups in the "Course Name," "Exam Boards," and "Teacher Name" columns is evident, as multiple values are associated with the same student number and student name. A composite key consisting of the "Student Number" and "Course Name" attributes is introduced to address this issue and achieve the first normal form. This composite key ensures the creation of a distinct row for each student and course combination, eliminating repeating groups and promoting the use of atomic values. Furthermore, the attributes "Student Name" and "Teacher Name" are decomposed into more granular components, specifically "First Name" and "Last Name" for student names and "Title" and "Teacher Name" for teacher names. These modifications convert the table into the first normal form.
 
-Table 8: Data organized in the first normal form
+Table 8: Data organised in the first normal form
 
 &nbsp;<ins>Student Number</ins> | First Name | Last Name | Exam Score | Support | Date of Birth | &nbsp;<ins>Course Name</ins> | Exam Boards | Title | Teacher Name
 --------------------------------|------------|-----------|------------|---------|---------------|------------------------------|-------------|-------|-------------
@@ -617,7 +617,7 @@ If a relation schema, denoted as $R(\underline{X}, Y, Z)$, contains a functional
 
 In the given example, the relation schema $Courses(\underline{Course Name}, Title, Teacher Name)$ exhibits a transitive dependency, where the non-prime attribute "Teacher Name" is functionally dependent on the attribute "Title". It is recommended to decompose the relation into two separate tables to resolve this: one containing the attributes "Course Name" and "Title" and another with the attributes "Title" and "Teacher Name". This decomposition eliminates the transitive dependency and ensures that each attribute directly depends on the key attribute.
 
-Furthermore, the relation schema $Exams(\underline{Student Number}, Exam Score, Support, Exam Boards, \underline{Course Name})$ is susceptible to a transitive dependency if additional attributes dependent on "Exam Boards" are introduced. Creating a separate table specifically for the attribute "Exam Boards" is advisable to prevent this, ensuring that the relation schema remains free from transitive dependencies and adheres to normalization principles.
+Furthermore, the relation schema $Exams(\underline{Student Number}, Exam Score, Support, Exam Boards, \underline{Course Name})$ is susceptible to a transitive dependency if additional attributes dependent on "Exam Boards" are introduced. Creating a separate table specifically for the attribute "Exam Boards" is advisable to prevent this, ensuring that the relation schema remains free from transitive dependencies and adheres to normalisation principles.
 
 #### Boyce-Codd Normal Form (BCNF)
 Boyce-Codd Normal Form (BCNF) introduces additional rules to ensure further data integrity by avoiding redundancies and the resulting anomalies. BCNF states that the table must already satisfy the requirements of the 3NF and stipulates that for every functional dependency $X \rightarrow Y$ in a given relation, $X$ must function as a superkey. In other words, $X$ should uniquely determine the values of $Y$, ensuring no partial dependencies or redundant information within the table.
@@ -1086,7 +1086,7 @@ df
 Figure 14: Pandas describe output showing the final data
 
 ## Individual Group Project Contributions
-The following two chapters document my contributions to the group project. During project execution, the team usually met twice per week to discuss progress and synchronize.
+The following two chapters document my contributions to the group project. During project execution, the team usually met twice per week to discuss progress and synchronise.
 
 ### Development Team Project: Project Report
 
@@ -1152,13 +1152,13 @@ Candidate Key                           | One or more attributes that uniquely i
 Data Manipulation Language (DML)        | Subset of SQL dedicated to manipulating data (create, read, update and delete).
 Data Definition Language (DDL)          | Subset of SQL dedicated to altering schemas.
 Superkey                                | A primary tuple identifier that consists of two or more attributes.
-Business Intelligence                   | Type of data analysis and set of technologies (evolution of decisions support tools) aimed at understanding organizational activities and opportunities
+Business Intelligence                   | Type of data analysis and set of technologies (evolution of decisions support tools) aimed at understanding organisational activities and opportunities
 Data Warehouse                          | Integrated decision support database and the related software programs used to collect, cleanse, transform, and store data from a variety of operational and external sources
 Data Warehousing                        | Operational extract, cleansing, transformation, control, and load processes that maintain the data in a data warehouse
-Data Integration                        | Covers Extract, Transform, and Load (ETL), data virtualization, and other techniques of getting data into a common form and location.
+Data Integration                        | Covers Extract, Transform, and Load (ETL), data virtualisation, and other techniques of getting data into a common form and location.
 Online Analytical Processing (OLAP)     | Databases containing business data from different points of view.
 Online Transaction Processing (OLTP)    | Database containing operational transactions.
-Data Lake                               | Centralized repository that allows storing structured and unstructured data
+Data Lake                               | Centralised repository that allows storing structured and unstructured data
 Low-code                                | Development environment used to create application software through a graphical user interface, where additional coding may be required.
 No-code                                 | Development environment used to create application software through a graphical user interface.
 
